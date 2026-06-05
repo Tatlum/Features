@@ -1,0 +1,180 @@
+.records-container {
+    min-width: 152px;
+}
+
+.records-settings {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 40);
+    padding: 3px 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.records-live-update {
+    font-size: 8px;
+    opacity: 1;
+    flex-shrink: 1;
+    min-width: 70px;
+}
+
+.records-filter {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 26px;
+    border-left-color: rgb(71, 71, 71);
+    border-right-color: rgb(71, 71, 71);
+    border-top-color: rgb(71, 71, 71);
+    border-bottom-color: rgb(71, 71, 71);
+    border-radius: 8px;
+    min-width: 58px;
+    max-width: 250px;
+    flex-shrink: 1;
+}
+
+.records-list-error-label {
+    color: rgb(221, 94, 81);
+}
+
+.records-list {
+    border-top-width: 1px;
+    border-left-color: rgb(35, 35, 35);
+    border-right-color: rgb(35, 35, 35);
+    border-top-color: rgb(35, 35, 35);
+    border-bottom-color: rgb(35, 35, 35);
+}
+
+.records-list-cell {
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+    padding-left: 15px;
+}
+
+.record-name-container {
+    flex-direction: row;
+    align-self: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding-left: 6px;
+    flex-grow: 1;
+}
+
+.record-name {
+    -unity-text-align: middle-left;
+    padding-left: 5px;
+}
+
+.record-icon-message {
+    align-content: flex-start;
+    align-self: auto;
+    align-items: stretch;
+    flex-direction: column;
+    width: 5px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-radius: 7px;
+    height: 5px;
+    padding-top: 0;
+    margin-top: 8px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.record-icon-request-processed {
+    align-content: flex-start;
+    align-self: auto;
+    align-items: stretch;
+    flex-direction: column;
+    width: 5px;
+    border-left-color: rgb(95, 173, 93);
+    border-right-color: rgb(95, 173, 93);
+    border-top-color: rgb(95, 173, 93);
+    border-bottom-color: rgb(95, 173, 93);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-radius: 7px;
+    height: 5px;
+    padding-top: 0;
+    margin-top: 8px;
+    background-color: rgb(95, 173, 93);
+}
+
+.record-icon-request-not-processed {
+    align-content: flex-start;
+    align-self: auto;
+    align-items: stretch;
+    flex-direction: column;
+    width: 5px;
+    border-left-color: rgb(221, 94, 81);
+    border-right-color: rgb(221, 94, 81);
+    border-top-color: rgb(221, 94, 81);
+    border-bottom-color: rgb(221, 94, 81);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-radius: 7px;
+    height: 5px;
+    padding-top: 0;
+    margin-top: 8px;
+    background-color: rgb(221, 94, 81);
+    -unity-background-image-tint-color: rgb(221, 94, 81);
+}
+
+.details-container {
+}
+
+.details-header-area {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(40, 40, 40);
+}
+
+.details-header-label {
+    -unity-text-align: upper-left;
+    text-overflow: clip;
+    white-space: pre;
+    padding-left: 15px;
+    -unity-font-style: normal;
+    font-size: 14px;
+}
+
+.details-data-area {
+    background-color: rgb(56, 56, 56);
+    flex-grow: 1;
+    padding: 10px 0;
+    border-left-color: rgb(84, 84, 84);
+    border-right-color: rgb(84, 84, 84);
+    border-top-color: rgb(84, 84, 84);
+    border-bottom-color: rgb(84, 84, 84);
+    border-top-width: 1px;
+}
+
+.details-data-label {
+    font-size: 14px;
+    -unity-text-align: upper-left;
+    text-overflow: clip;
+    white-space: pre;
+    padding-left: 15px;
+}
+
+.unity-multi-column-header__column__title {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 15px;
+}
+
+.unity-content-and-vertical-scroll-container {
+    margin-top: 10px;
+}
+
+.unity-search-field-base__text-field__input {
+    padding-right: 3px;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "ErmineGames.Features",
+    "rootNamespace": "ErmineGames.Features",
+    "references": [
+        "GUID:fac476dc2011c1f46b72972eb6ed0201"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
