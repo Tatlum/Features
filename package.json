@@ -1,0 +1,23 @@
+{
+  "name": "com.ermine.features",
+  "version": "1.0.0",
+  "displayName": "Ermine Games Features",
+  "description": "Feature system for Unity projects.",
+  "keywords": [
+    "features",
+    "game"
+  ],
+  "author": {
+    "name": "Ermine Games"
+  },
+  "license": "MIT",
+  "type": "library",
+  "unity": "2022.2",
+  "unityRelease": "1f1",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tatlum/Features.git"
+  }
+}
+
